@@ -23,8 +23,8 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        alreadyHaveAccountButton.addTarget(self, action: #selector(signUpButtonPressed), for: .touchUpInside)
-        
+        signUpButton.addTarget(self, action: #selector(signUpButtonPressed), for: .touchUpInside)
+        alreadyHaveAccountButton.addTarget(self, action: #selector(backtoLoginPage), for: .touchUpInside)
     }
     
     @objc func signUpButtonPressed () {
@@ -36,6 +36,10 @@ class SignUpViewController: UIViewController {
         }
         makeToast(message: "Registered successfully!")
         
+    }
+    
+    @objc func backtoLoginPage() {
+        dismiss(animated: true)
     }
     
 }

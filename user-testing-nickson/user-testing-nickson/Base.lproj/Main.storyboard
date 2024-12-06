@@ -22,14 +22,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_icon" translatesAutoresizingMaskIntoConstraints="NO" id="cDJ-Fv-x5E">
-                                <rect key="frame" x="95" y="75" width="204" height="183"/>
+                                <rect key="frame" x="95" y="134" width="204" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="204" id="Bdh-eb-Mr8"/>
                                     <constraint firstAttribute="height" constant="183" id="Bof-LI-neC"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5x-wF-DmR">
-                                <rect key="frame" x="0.0" y="368" width="393" height="484"/>
+                                <rect key="frame" x="0.0" y="427" width="393" height="425"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YO2-3z-u6p">
                                         <rect key="frame" x="20" y="30" width="116" height="45"/>
@@ -44,7 +44,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Idz-Qm-qCq">
-                                        <rect key="frame" x="20" y="118.66666666666669" width="343" height="46"/>
+                                        <rect key="frame" x="20" y="118.66666666666663" width="343" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="343" id="3L2-jL-Uqf"/>
                                             <constraint firstAttribute="height" constant="46" id="q7t-8s-E03"/>
@@ -199,9 +199,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Already has an account? Log in">
                                     <fontDescription key="titleFontDescription" name="Lexend-Regular" family="Lexend" pointSize="16"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Azk-a2-q6d"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xpi-QX-tA5"/>
